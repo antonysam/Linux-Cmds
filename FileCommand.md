@@ -63,6 +63,8 @@ _Usages_
 
 1)Delete a file or directory
 
+2)Can able to delete the directory forcefully using -r recursive cmd
+
 # Cmd
 ```
 rm <"Filename.extension">
