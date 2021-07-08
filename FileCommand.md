@@ -52,7 +52,7 @@ Note: pwd shows the current working directory
 ```
 mv <"Rename_Directory"> <"newname_Directory">
 
-mv <"Filename_tobe_moved"> <"Directoryname">
+mv <"Filename_tobe_moved.extension"> <"Directoryname">
 ```
 ---------
 # rm
@@ -67,6 +67,6 @@ _Usages_
 ```
 rm <"Filename.extension">
 
-rm -r <"Directoryname.extension">
+rm -r <"Directoryname">
 ```
 
