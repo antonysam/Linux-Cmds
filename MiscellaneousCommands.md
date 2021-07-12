@@ -327,6 +327,67 @@ Note: H - displays hour
 ```
 date "+<"user defined string"> %D %H/%M/%S
 ```
+------------
+# wc
+
+_Displays the count of the word, lines, characters_
+
+# Cmd
+```
+wc <"filename1.extension"> <"filename2.extenstion">
+```
+Note: -l represents lines
+      -w represents words
+      -c represents characters
+
+# Cmd
+```
+wc -l <"filename.extension">
+wc -w <"filename.extension">
+wc -c <"filename.extension">
+```
+-----------
+# sort
+
+_Sort the content of the file_
+Note: sorting a file will not affect the original file
+
+# Cmd
+```
+sort <"filename1.extension">.......
+```
+_Sort the content of the file in reverse order_
+
+# Cmd
+```
+sort -r <"filename.extension">
+```
+_Sort the file and saves it to a new file_
+
+# Cmd
+```
+sort <"filename.extension"> ><newfilename.extension">
+```
+--------------
+# uniq
+_Displays the uniq data from the file_
+
+# Cmd
+```
+uniq <"filename">
+```
+Note:-d represents repeated elements
+     -u represents not repeated elements
+     -c represents the data with the count of repeated entry
+     
+# Cmd
+```
+uniq -d <"filename">
+uniq -u <"filename">
+uniq -c <"filename">
+```
+
+
 
 
 
