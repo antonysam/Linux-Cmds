@@ -33,6 +33,8 @@ there is no input to the 2nd cmd. So, the piping breaks
 
 can use `tee` while using output redirection and piping in the same command
 
+![tee_explanation](https://github.com/antonysam/Linux-Cmds/blob/master/images/tee.PNG)
+
 # Cmd
 ```
 ls -l /sample | tee output.txt | wc
